@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@angular/flex-layout": "^15.0.0-beta.42",
-    "angular-route": "^1.8.3"
-  }
-}
