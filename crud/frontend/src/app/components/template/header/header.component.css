@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header .logo {
+    max-height: 32px;
+}
+
+.header .title-group{
+    padding-left: 15px;
+}
+
+.header .title-group i {
+    padding-right: 5px;
+}
+
+/* header.component.css */
+
+.header mat-form-field {
+    width: 30%;
+    /* Outras propriedades de estilo */
+  }
+  
+  .header mat-form-field-label {
+    color: red;
+    /* Outras propriedades de estilo */
+  }
+  
+  .header mat-form-field-wrapper input {
+    background-color: #f0f0f0;
+    /* Outras propriedades de estilo */
+  }
+  
+  .header mat-form-field-prefix mat-icon {
+    color: blue;
+    /* Outras propriedades de estilo */
+  }
+  
+

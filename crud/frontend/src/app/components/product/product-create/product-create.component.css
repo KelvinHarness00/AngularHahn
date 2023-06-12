@@ -1,0 +1,14 @@
+mat-card{
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    size-adjust: text;
+}

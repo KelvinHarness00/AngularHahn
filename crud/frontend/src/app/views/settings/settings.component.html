@@ -1,0 +1,128 @@
+<div class="container" fxLayout="row">
+  <div class="column" fxFlex="33%">
+    <h1>User Settings</h1>
+    <p>Fill down your personal info.</p>
+
+    <div class="separator"></div>
+    <h2 class="no-bold">Personal info</h2>   
+
+    <div class="input-container" [style.margin-left.%] ="2">
+      <div class="input-wrapper">
+        <mat-form-field appearance="outline">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="Enter your name">
+        </mat-form-field>
+      </div>   
+      <div class="input-wrapper">
+        <mat-form-field appearance="outline">
+          <mat-label>Surname</mat-label>
+          <input matInput placeholder="Enter your surname">
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="input-wrapper" [style.margin-left.%] ="2" [style.width.px]="100">
+      <mat-select-country [style.width.%]="100" appearance="outline"
+                    label="Country"
+                    [formControl]="countryFormControl"
+                    (onCountrySelected)="onCountrySelected($event)">
+      </mat-select-country>
+    </div>
+
+    <div class="separator"></div>
+    <h2>Notifications</h2>
+
+    <div class="input-wrapper">
+      <p>Teste</p>
+    </div>
+
+    <div class="input-wrapper">
+      <p>aaaaaaaa</p>
+    </div>
+
+    <div class="input-wrapper">
+      <p>Teste</p>
+    </div>
+    <div class="separator"></div>
+    <div class="input-wrapper" >
+      <button class="button-primary">Save</button>
+      <button class="button-primary">Cancel</button>
+    </div>
+
+    <div class="separator"></div>
+    <h2>Danger Zone</h2>
+    <button class="button-danger">Delete Account</button>
+  </div>
+  
+  <div class="column" fxFlex="33%">
+    <h1>Automation</h1>
+    <p>Save time by enabling these settings.</p>
+
+    <div class="separator"></div>
+    <h2 class="no-bold">Security</h2>
+
+    <div class="section-custom">
+      <p class="p-custom">aaaaaaaa</p>
+      <mat-checkbox class="example-margin"></mat-checkbox>
+    </div>
+    
+    <div class="section-custom">
+      <p class="p-custom">bbbbbbbbb</p>
+      <mat-checkbox class="example-margin"></mat-checkbox>
+    </div>
+
+    <div class="section-custom">
+      <p class="p-custom">cccccccc</p>
+      <mat-checkbox class="example-margin"></mat-checkbox>
+    </div>
+
+    <div class="section-custom">
+      <p class="p-custom">dddddddd</p>
+      <mat-checkbox class="example-margin"></mat-checkbox>
+    </div>
+
+    <div class="section-custom">
+      <p class="p-custom">eeeeeeee</p>
+      <mat-checkbox class="example-margin"></mat-checkbox>
+    </div>
+    
+    <div class="separator"></div>
+    <h2 >Exemplo</h2>
+
+    <div class="separator"></div>
+    <h2>Exemplo</h2>
+
+    <div class="section-custom">
+      <p class="p-custom">aaaaaaaa</p>
+      <mat-radio-button class="example-margin" ></mat-radio-button>
+    </div>
+    
+    <div class="section-custom">
+      <p class="p-custom">bbbbbbbbb</p>
+      <mat-radio-button class="example-margin" ></mat-radio-button>
+    </div>
+
+    <div class="section-custom">
+      <p class="p-custom">cccccccc</p>
+      <mat-radio-button class="example-margin" ></mat-radio-button>
+    </div>
+  </div>
+
+  <div class="column" fxFlex="33%">
+    <h1>Billing</h1>
+    <p>Please, update your billing info.</p>
+
+    <div class="separator"></div>
+    <h2 class="no-bold"> Credit card</h2>
+
+    <div class="card-number" id="credit-card-input">
+      <mat-form-field class="card-number" appearance="outline" id="credit-card-input">
+        <mat-label>Card Number</mat-label>
+        <input matInput placeholder="Enter your card number" class="card-number">
+      </mat-form-field>
+    </div>
+
+    
+
+
+  </div>
+</div>

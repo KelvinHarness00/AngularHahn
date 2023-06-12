@@ -1,0 +1,43 @@
+.home{
+    padding: 15px;
+}
+.home .card-title{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .card-subtitle{
+    font-size: 1.1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.rainbow-button {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .rainbow-button:hover, .rainbow-button:focus, .rainbow-button:active {
+    animation: rainbow 3s linear infinite;
+  }
+
+  #image{
+    display: none;
+  }

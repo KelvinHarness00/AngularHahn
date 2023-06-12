@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.h2{
+  font-weight: normal;
+}
+
+.no-bold {
+  font-weight: normal;
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+
+.input-container {
+  display:inline-flex;
+}
+.input-wrapper {
+  display: flex;
+  align-items: stretch;
+  margin-right: 10%;
+  align-content: stretch;
+}
+
+.custom-input {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #333;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  border-color: #333;
+}
+
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  border-color: #555;
+}
+
+.section-custom{
+  display:flex;
+  width: 100%;
+}
+
+.card-number{
+  width: 100%
+}
+
+.p-custom{
+  width: 100%;
+}
+
+#credit-card-input {
+  font-family: monospace;
+  letter-spacing: 1ch; 
+  text-align: center;
+  width: 12ch;
+  border: none; 
+  outline: none; 
+}
+
+/* Estilo básico para botões */
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #ccc;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Estilo para botão primário */
+.button-primary {
+  background-color: #3498db;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.button-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para botão secundário */
+.button-secondary {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #d4ac0d;
+}
+
+/* Estilo para botão de sucesso */
+.button-success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.button-success:hover {
+  background-color: #27ae60;
+}
+
+/* Estilo para botão de perigo */
+.button-danger {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.button-danger:hover {
+  background-color: #c0392b;
+}
