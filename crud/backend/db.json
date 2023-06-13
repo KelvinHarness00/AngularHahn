@@ -1,1 +1,49 @@
-{"products":[{"id":1,"name":"Caneta BIC Preta","price":5.89},{"id":2,"name":"Notebook Mac Pro","price":12000.35},{"id":3,"name":"Samsung S20","price":8000.25},{"name":"Produto Teste","price":"37.90","id":"3928a92b-e005-4d2e-b1c0-2bed89506eeb"},{"name":"Produto Teste 2","price":"55.22","id":"ba4ffe3b-8061-477e-d3c0-92a7d81e1a45"},{"name":"Bola de Futebol","price":"100","id":"95e218a3-6ec7-4ea2-dcdc-b869917b7f34"},{"name":"Copo","price":"30","id":"015640f8-8100-4778-f237-b45fae33de03"},{"name":"Tesoura","price":"20","id":"56693183-e85e-48f5-9000-8130d010ae32"},{"name":"Produto Teste DC","price":"326.65","id":"f0286da5-04e7-4815-861d-9c6e4e61f379"}]}
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta BIC Preta",
+            "price": 5.89
+        },
+        {
+            "id": 2,
+            "name": "Notebook Mac Pro",
+            "price": 12000.35
+        },
+        {
+            "id": 3,
+            "name": "Samsung S20",
+            "price": 8000.25
+        },
+        {
+            "name": "Produto Teste",
+            "price": "37.90",
+            "id": "3928a92b-e005-4d2e-b1c0-2bed89506eeb"
+        },
+        {
+            "name": "Produto Teste 2",
+            "price": "55.22",
+            "id": "ba4ffe3b-8061-477e-d3c0-92a7d81e1a45"
+        },
+        {
+            "name": "Bola de Futebol",
+            "price": "100",
+            "id": "95e218a3-6ec7-4ea2-dcdc-b869917b7f34"
+        },
+        {
+            "name": "Copo",
+            "price": "30",
+            "id": "015640f8-8100-4778-f237-b45fae33de03"
+        },
+        {
+            "name": "Tesoura",
+            "price": "20",
+            "id": "56693183-e85e-48f5-9000-8130d010ae32"
+        },
+        {
+            "name": "Produto Teste DC",
+            "price": "326.65",
+            "id": "f0286da5-04e7-4815-861d-9c6e4e61f379"
+        }
+    ]
+}
