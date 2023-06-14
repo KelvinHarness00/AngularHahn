@@ -72,7 +72,8 @@
   text-align: center;
   width: 12ch;
   border: none; 
-  outline: none; 
+  outline: none;
+  width: 100%;
 }
 
 /* Estilo básico para botões */
@@ -83,6 +84,7 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
+  width: 40%;
 }
 
 /* Estilo para botão primário */
@@ -90,6 +92,7 @@ button {
   background-color: #3498db;
   color: #fff;
   margin-top: 5%;
+  width: 40%;
 }
 
 .button-primary:hover {
@@ -98,25 +101,16 @@ button {
 
 /* Estilo para botão secundário */
 .button-secondary {
-  background-color: #f1c40f;
-  color: #fff;
+  background-color: #F0F0F0;
+  margin-top: 5%;
+  color: #373D3F;
+  width: 40%;
 }
 
 .button-secondary:hover {
-  background-color: #d4ac0d;
+  background-color: #DCDCDC;
 }
 
-/* Estilo para botão de sucesso */
-.button-success {
-  background-color: #2ecc71;
-  color: #fff;
-}
-
-.button-success:hover {
-  background-color: #27ae60;
-}
-
-/* Estilo para botão de perigo */
 .button-danger {
   background-color: #e74c3c;
   color: #fff;
@@ -124,4 +118,31 @@ button {
 
 .button-danger:hover {
   background-color: #c0392b;
+}
+
+.center-stretch {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+.center-stretch p {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: left;
+  margin: 4% 0%;
+}
+
+.button-container button {
+  margin: 0 5% 0 0;
+  width: 150px;
+}
+
+.select-country-wrapper {
+  width: 100%;
 }

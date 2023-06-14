@@ -25,7 +25,6 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProducRead2Component } from './components/product/produc-read2/produc-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -35,8 +34,11 @@ import { MatSelectCountryModule } from "@angular-material-extensions/select-coun
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
-
-
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatNativeDateModule } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 
 import localPt from '@angular/common/locales/pt'
@@ -57,7 +59,6 @@ registerLocaleData(localPt);
     ProductCreateComponent,
     RedDirective,
     ProductReadComponent,
-    ProducRead2Component,
     ProductUpdateComponent,
     SettingsComponent,
     
@@ -86,6 +87,11 @@ registerLocaleData(localPt);
     ReactiveFormsModule,
     MatCheckboxModule,
     MatRadioModule,
+    MatSlideToggleModule,
+    MatIconModule,
+    MatSliderModule,
+    MatNativeDateModule,
+    MatDatepickerModule
   ],
   providers: [{
     provide:LOCALE_ID, 
