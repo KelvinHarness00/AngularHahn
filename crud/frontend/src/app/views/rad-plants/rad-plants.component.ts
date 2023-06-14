@@ -20,4 +20,16 @@ export class RadPlantsComponent {
       conteudo: '​Preserving the natural beauty of the Amazon is of utmost importance for the sustainability and survival of its rich biodiversity. It is essential to adopt responsible practices to ensure the conservation of this valuable ecosystem. Raising awareness about the importance of environmental preservation, supporting local and indigenous communities, promoting sustainable tourism, and implementing conservation measures are some of the paths to protect the Amazon. Together, we can play a crucial role in maintaining this natural beauty for future generations to enjoy and appreciate.'
     }
   ];
+
+  scrollToCategories() {
+    const categoriesSection = document.getElementById('categoriesSection');
+    if (categoriesSection) {
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+      const offset = windowHeight * 0.2;
+      const topPosition = categoriesSection.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: topPosition, behavior: 'smooth' });
+    }
+  }
+  
+
 }

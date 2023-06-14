@@ -26,6 +26,7 @@
 .image-div {
     width: 25%;
     height: 80%;
+    margin-left: -5%;
 }
 
 .square-button {
@@ -38,40 +39,108 @@
     font-size: 16px;
 }
 
-.section-categories-div {
-    text-align: center;
-    width: 80%;
+.square-button:hover {
+    background-color: #5f5d5d;
 }
 
-.categories-div {
+  
+.section-texts-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.categories-div .image-div {
-    margin: 10px;
-}
-
-.categories-div figure {
+    align-items: flex-start;
+  }
+  
+  .text-section {
     text-align: center;
-    margin: 10px;
-}
+    flex-basis: 30%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
 
-.categories-div figcaption {
-    margin-top: 5px;
-}
-
-.section-texts-div {
+.section-contact-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
+    margin-bottom: 10%;
+  }
+  
+  .contact-text {
+    flex-basis: 50%;
+  }
+  
+  .contact-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-text p {
+    font-size: 16px;
+  }
+  
+  .contact-form {
+    flex-basis: 50%;
+    padding-left: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #030303;
+    color: white;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1e1e1e;
+  }
+  
+  .contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.text-section {
-    text-align: center;
-    align-self: start;
-    flex-basis: 33.33%;
-    padding: 4%;
+.contact-form button {
+  background-color: #030303;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
+
+.contact-form button:hover {
+  background-color: #1e1e1e;
+}
+
 
