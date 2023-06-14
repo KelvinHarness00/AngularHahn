@@ -44,7 +44,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import localPt from '@angular/common/locales/pt'
 import {CommonModule, registerLocaleData} from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { SettingsComponent } from './views/settings/settings.component'
+import { SettingsComponent } from './views/settings/settings.component';
+import { RadPlantsComponent } from './views/rad-plants/rad-plants.component'
 
 registerLocaleData(localPt);
 
@@ -61,6 +62,7 @@ registerLocaleData(localPt);
     ProductReadComponent,
     ProductUpdateComponent,
     SettingsComponent,
+    RadPlantsComponent,
     
   ],
   imports: [

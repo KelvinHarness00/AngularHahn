@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './views/home/home.component';
 import {ProductCrudComponent} from './views/product-crud/product-crud.component';
 import { SettingsComponent } from './views/settings/settings.component';
+import { RadPlantsComponent } from './views/rad-plants/rad-plants.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
@@ -22,6 +23,9 @@ const routes: Routes = [{
   },{
     path:"settings",
     component: SettingsComponent
+  },{
+    path:"radPlants",
+    component: RadPlantsComponent
   }];
 
 @NgModule({

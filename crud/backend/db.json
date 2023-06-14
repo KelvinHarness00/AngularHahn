@@ -49,6 +49,11 @@
       "name": "Dell G15",
       "price": "5600",
       "id": 7
+    },
+    {
+      "name": "Tattoo",
+      "price": "250",
+      "id": 8
     }
   ]
 }
